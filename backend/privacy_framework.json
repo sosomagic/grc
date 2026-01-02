@@ -1,0 +1,488 @@
+{
+  "functions": [
+    {
+      "code": "IDENTIFY-P",
+      "title": "Identify-P",
+      "description": "Develop the organizational understanding to manage privacy risk for individuals arising from data processing."
+    },
+    {
+      "code": "GOVERN-P",
+      "title": "Govern-P",
+      "description": "Develop and implement the organizational governance structure to enable an ongoing understanding of the organization's risk management priorities that are informed by privacy risk."
+    },
+    {
+      "code": "CONTROL-P",
+      "title": "Control-P",
+      "description": "Develop and implement appropriate activities to enable organizations or individuals to manage data with sufficient granularity to manage privacy risks."
+    },
+    {
+      "code": "COMMUNICATE-P",
+      "title": "Communicate-P",
+      "description": "Develop and implement appropriate activities to enable organizations and individuals to have a reliable understanding and engage in a dialogue about how data are processed and associated privacy risks."
+    },
+    {
+      "code": "PROTECT-P",
+      "title": "Protect-P",
+      "description": "Develop and implement appropriate data processing safeguards."
+    }
+  ],
+  "categories": [
+    {
+      "code": "IDENTIFY-P.IM",
+      "title": "Inventory and Mapping",
+      "description": "Data processing by systems, products, or services is understood and informs the management of privacy risk.",
+      "function": "IDENTIFY-P"
+    },
+    {
+      "code": "IDENTIFY-P.BA",
+      "title": "Business Environment",
+      "description": "The organization's mission, objectives, stakeholders, and activities are understood and prioritized; this information is used to inform privacy roles, responsibilities, and risk management decisions.",
+      "function": "IDENTIFY-P"
+    },
+    {
+      "code": "IDENTIFY-P.RA",
+      "title": "Risk Assessment",
+      "description": "The organization understands the privacy risks to individuals and how such privacy risks may create follow-on impacts on organizational operations, including mission, functions, other risk management priorities, reputation, workforce, and culture.",
+      "function": "IDENTIFY-P"
+    },
+    {
+      "code": "GOVERN-P.PO",
+      "title": "Policy",
+      "description": "Organizational privacy values, policies, and training are understood and inform the management of privacy risk.",
+      "function": "GOVERN-P"
+    },
+    {
+      "code": "GOVERN-P.RM",
+      "title": "Risk Management Strategy",
+      "description": "The organization's priorities, constraints, risk tolerance, and assumptions are established and used to support risk decisions associated with managing privacy risk.",
+      "function": "GOVERN-P"
+    },
+    {
+      "code": "GOVERN-P.AT",
+      "title": "Awareness and Training",
+      "description": "The organization's workforce and third parties engaged in data processing are provided privacy awareness education and are trained to perform their privacy-related duties and responsibilities consistent with related policies, procedures, and agreements.",
+      "function": "GOVERN-P"
+    },
+    {
+      "code": "GOVERN-P.OV",
+      "title": "Oversight",
+      "description": "The policies, procedures, and processes are in place to govern, manage, and monitor the organization's regulatory, legal, risk, environmental, and operational requirements as they relate to privacy.",
+      "function": "GOVERN-P"
+    },
+    {
+      "code": "CONTROL-P.IM",
+      "title": "Inventory and Mapping",
+      "description": "Systems, products, and services that process data are inventoried and data processing is mapped.",
+      "function": "CONTROL-P"
+    },
+    {
+      "code": "CONTROL-P.IP",
+      "title": "Data Processing Policies, Processes, and Procedures",
+      "description": "Policies, processes, and procedures for authorizing data processing (e.g., acquisition, use) inform the organization's risk management decisions and are used to manage privacy risks.",
+      "function": "CONTROL-P"
+    },
+    {
+      "code": "CONTROL-P.DM",
+      "title": "Data Processing Management",
+      "description": "Data are managed consistent with the organization's risk strategy to protect individuals' privacy, increase manageability, and enable the implementation of privacy principles.",
+      "function": "CONTROL-P"
+    },
+    {
+      "code": "CONTROL-P.DE",
+      "title": "Disassociated Processing",
+      "description": "Data processing solutions increase disassociability consistent with the organization's risk strategy to protect individuals' privacy and enable implementation of privacy principles.",
+      "function": "CONTROL-P"
+    },
+    {
+      "code": "COMMUNICATE-P.AT",
+      "title": "Awareness and Training",
+      "description": "Individuals and organizations have reliable knowledge about data processing practices and associated privacy risks, and effective mechanisms are used and maintained to increase predictability consistent with the organization's risk strategy.",
+      "function": "COMMUNICATE-P"
+    },
+    {
+      "code": "COMMUNICATE-P.CM",
+      "title": "Communications Management",
+      "description": "Individuals and organizations are provided with effective mechanisms to communicate with the organization about data processing, and associated privacy risks are managed.",
+      "function": "COMMUNICATE-P"
+    },
+    {
+      "code": "PROTECT-P.DS",
+      "title": "Data Security",
+      "description": "Data are managed consistent with the organization's risk strategy to protect individuals' privacy and maintain data confidentiality, integrity, and availability.",
+      "function": "PROTECT-P"
+    },
+    {
+      "code": "PROTECT-P.PT",
+      "title": "Processing",
+      "description": "Technical solutions are in place to process data in accordance with the organization's risk strategy to protect individuals' privacy.",
+      "function": "PROTECT-P"
+    }
+  ],
+  "subcategories": [
+    {
+      "code": "IDENTIFY-P.IM-01",
+      "title": "Systems, products, and services that process data are inventoried",
+      "category": "IDENTIFY-P.IM"
+    },
+    {
+      "code": "IDENTIFY-P.IM-02",
+      "title": "Owners or operators (e.g., service providers) and other entities (e.g., data brokers, third-party application developers) involved with processing data are inventoried",
+      "category": "IDENTIFY-P.IM"
+    },
+    {
+      "code": "IDENTIFY-P.IM-03",
+      "title": "Categories of individuals whose data are being processed are inventoried",
+      "category": "IDENTIFY-P.IM"
+    },
+    {
+      "code": "IDENTIFY-P.IM-04",
+      "title": "Data actions of the systems, products, or services are inventoried",
+      "category": "IDENTIFY-P.IM"
+    },
+    {
+      "code": "IDENTIFY-P.IM-05",
+      "title": "Purpose(s) for the data actions are inventoried",
+      "category": "IDENTIFY-P.IM"
+    },
+    {
+      "code": "IDENTIFY-P.IM-06",
+      "title": "Data elements within the data actions are inventoried",
+      "category": "IDENTIFY-P.IM"
+    },
+    {
+      "code": "IDENTIFY-P.IM-07",
+      "title": "The contextual factors (e.g., temporal, geographic, societal) of the data actions are identified",
+      "category": "IDENTIFY-P.IM"
+    },
+    {
+      "code": "IDENTIFY-P.IM-08",
+      "title": "Data processing is mapped, illustrating the data actions and associated data elements for systems, products, or services",
+      "category": "IDENTIFY-P.IM"
+    },
+    {
+      "code": "IDENTIFY-P.BA-01",
+      "title": "The organization's role(s) in the data processing ecosystem are identified and communicated (e.g., as a controller, processor, data broker, or third-party application developer)",
+      "category": "IDENTIFY-P.BA"
+    },
+    {
+      "code": "IDENTIFY-P.BA-02",
+      "title": "Priorities for organizational mission, objectives, and activities are established and communicated",
+      "category": "IDENTIFY-P.BA"
+    },
+    {
+      "code": "IDENTIFY-P.BA-03",
+      "title": "The organization's role-related obligations for data processing by an organizational program, system, product, or service are determined and communicated",
+      "category": "IDENTIFY-P.BA"
+    },
+    {
+      "code": "IDENTIFY-P.BA-04",
+      "title": "Data processing activities are established in ways that enable the organization to communicate those data actions to individuals",
+      "category": "IDENTIFY-P.BA"
+    },
+    {
+      "code": "IDENTIFY-P.BA-05",
+      "title": "Privacy values, policies, and training are established and communicated",
+      "category": "IDENTIFY-P.BA"
+    },
+    {
+      "code": "IDENTIFY-P.BA-06",
+      "title": "Privacy risk management activities are established, supported by resources, and reviewed and adjusted to ensure continued support throughout the organization",
+      "category": "IDENTIFY-P.BA"
+    },
+    {
+      "code": "IDENTIFY-P.BA-07",
+      "title": "The organization's workforce that interacts with the data processing ecosystem is identified",
+      "category": "IDENTIFY-P.BA"
+    },
+    {
+      "code": "IDENTIFY-P.BA-08",
+      "title": "Dependencies within the data processing ecosystem are established and managed",
+      "category": "IDENTIFY-P.BA"
+    },
+    {
+      "code": "IDENTIFY-P.RA-01",
+      "title": "Privacy risk is identified and documented by the organization",
+      "category": "IDENTIFY-P.RA"
+    },
+    {
+      "code": "IDENTIFY-P.RA-02",
+      "title": "Privacy risk associated with an organizational program, system, product, or service is determined by qualified personnel and is documented",
+      "category": "IDENTIFY-P.RA"
+    },
+    {
+      "code": "IDENTIFY-P.RA-03",
+      "title": "Privacy risk assessments and other risk management tools are used to determine how organizational programs, systems, products, or services could create, sustain, or increase specific problematic data actions for individuals",
+      "category": "IDENTIFY-P.RA"
+    },
+    {
+      "code": "IDENTIFY-P.RA-04",
+      "title": "Privacy risks associated with the system, product, or service are communicated to the appropriate organizational programs or departments",
+      "category": "IDENTIFY-P.RA"
+    },
+    {
+      "code": "IDENTIFY-P.RA-05",
+      "title": "Privacy risk information is shared within the organization",
+      "category": "IDENTIFY-P.RA"
+    },
+    {
+      "code": "IDENTIFY-P.RA-06",
+      "title": "Privacy risk is used to inform mission and business decisions",
+      "category": "IDENTIFY-P.RA"
+    },
+    {
+      "code": "IDENTIFY-P.RA-07",
+      "title": "Data processing by third-party entities is assessed",
+      "category": "IDENTIFY-P.RA"
+    },
+    {
+      "code": "GOVERN-P.PO-01",
+      "title": "Organizational privacy values and policies are established and communicated",
+      "category": "GOVERN-P.PO"
+    },
+    {
+      "code": "GOVERN-P.PO-02",
+      "title": "Privacy policy is reviewed and adjusted to reflect changes in data processing practices, organizational operations, information management, and risk environment",
+      "category": "GOVERN-P.PO"
+    },
+    {
+      "code": "GOVERN-P.PO-03",
+      "title": "Privacy policy and procedures are established and enforced by leadership",
+      "category": "GOVERN-P.PO"
+    },
+    {
+      "code": "GOVERN-P.RM-01",
+      "title": "Risk management processes and associated roles and responsibilities are established",
+      "category": "GOVERN-P.RM"
+    },
+    {
+      "code": "GOVERN-P.RM-02",
+      "title": "Privacy risk appetite, risk assumptions, and risk tolerance are established and communicated",
+      "category": "GOVERN-P.RM"
+    },
+    {
+      "code": "GOVERN-P.RM-03",
+      "title": "Privacy risk management priorities are established and communicated",
+      "category": "GOVERN-P.RM"
+    },
+    {
+      "code": "GOVERN-P.RM-04",
+      "title": "Privacy risk is examined and associated organizational decisions (including priorities, resource allocation, and compensating controls selection) are determined and communicated",
+      "category": "GOVERN-P.RM"
+    },
+    {
+      "code": "GOVERN-P.AT-01",
+      "title": "The workforce is informed and trained on its roles and responsibilities",
+      "category": "GOVERN-P.AT"
+    },
+    {
+      "code": "GOVERN-P.AT-02",
+      "title": "Senior executives are informed and trained on their roles and responsibilities",
+      "category": "GOVERN-P.AT"
+    },
+    {
+      "code": "GOVERN-P.AT-03",
+      "title": "Privacy workforce and senior executives are trained on how to identify and respond to privacy-related events",
+      "category": "GOVERN-P.AT"
+    },
+    {
+      "code": "GOVERN-P.AT-04",
+      "title": "Other workforce members that interact with the organization's systems, products, or services or have access to individuals' data are informed and trained on applicable privacy policies, procedures, and protocols",
+      "category": "GOVERN-P.AT"
+    },
+    {
+      "code": "GOVERN-P.AT-05",
+      "title": "The workforce's privacy knowledge, skills, and abilities are periodically reviewed",
+      "category": "GOVERN-P.AT"
+    },
+    {
+      "code": "GOVERN-P.OV-01",
+      "title": "Privacy governance and risk management processes are established, documented, and implemented",
+      "category": "GOVERN-P.OV"
+    },
+    {
+      "code": "GOVERN-P.OV-02",
+      "title": "Privacy governance and risk management processes are aligned with other organizational strategies and processes and occur throughout the life cycle",
+      "category": "GOVERN-P.OV"
+    },
+    {
+      "code": "GOVERN-P.OV-03",
+      "title": "Mechanisms for ongoing monitoring of privacy risks are implemented and findings are evaluated",
+      "category": "GOVERN-P.OV"
+    },
+    {
+      "code": "GOVERN-P.OV-04",
+      "title": "Reports are generated and communicated as required to enable risk-informed decisions",
+      "category": "GOVERN-P.OV"
+    },
+    {
+      "code": "CONTROL-P.IM-01",
+      "title": "Systems, products, and services that process data are inventoried (Duplicates IDENTIFY-P.IM-01)",
+      "category": "CONTROL-P.IM"
+    },
+    {
+      "code": "CONTROL-P.IM-02",
+      "title": "Owners or operators (e.g., service providers) and other entities (e.g., data brokers, third-party application developers) involved with processing data are inventoried (Duplicates IDENTIFY-P.IM-02)",
+      "category": "CONTROL-P.IM"
+    },
+    {
+      "code": "CONTROL-P.IP-01",
+      "title": "Processes for data acquisition are established",
+      "category": "CONTROL-P.IP"
+    },
+    {
+      "code": "CONTROL-P.IP-02",
+      "title": "Processes for data use are established",
+      "category": "CONTROL-P.IP"
+    },
+    {
+      "code": "CONTROL-P.IP-03",
+      "title": "Processes for data disposal are established",
+      "category": "CONTROL-P.IP"
+    },
+    {
+      "code": "CONTROL-P.IP-04",
+      "title": "Data processing policies, processes, and procedures are followed and enforced",
+      "category": "CONTROL-P.IP"
+    },
+    {
+      "code": "CONTROL-P.IP-05",
+      "title": "Data processing policies, processes, and procedures are reviewed and adjusted to address changes in technology and business objectives",
+      "category": "CONTROL-P.IP"
+    },
+    {
+      "code": "CONTROL-P.DM-01",
+      "title": "Data elements can be accessed for review",
+      "category": "CONTROL-P.DM"
+    },
+    {
+      "code": "CONTROL-P.DM-02",
+      "title": "Data elements can be accessed for transmission or disclosure",
+      "category": "CONTROL-P.DM"
+    },
+    {
+      "code": "CONTROL-P.DM-03",
+      "title": "Data elements can be accessed for alteration",
+      "category": "CONTROL-P.DM"
+    },
+    {
+      "code": "CONTROL-P.DM-04",
+      "title": "Data elements can be accessed for deletion",
+      "category": "CONTROL-P.DM"
+    },
+    {
+      "code": "CONTROL-P.DE-01",
+      "title": "Data are processed to limit observability and linkability (e.g., data actions take place with pseudonymous data)",
+      "category": "CONTROL-P.DE"
+    },
+    {
+      "code": "CONTROL-P.DE-02",
+      "title": "Data are processed to limit the identification of individuals (e.g., data actions take place with de-identified, aggregated, anonymized data)",
+      "category": "CONTROL-P.DE"
+    },
+    {
+      "code": "COMMUNICATE-P.AT-01",
+      "title": "Mechanisms (e.g., notices) for communicating data processing purposes, practices, associated privacy risks, and options for enabling individuals' data processing preferences and requests are established and in place",
+      "category": "COMMUNICATE-P.AT"
+    },
+    {
+      "code": "COMMUNICATE-P.AT-02",
+      "title": "Mechanisms for obtaining feedback from individuals (e.g., surveys, focus groups) about data processing and associated privacy risks are established and in place",
+      "category": "COMMUNICATE-P.AT"
+    },
+    {
+      "code": "COMMUNICATE-P.AT-03",
+      "title": "System/product/service design enables data processing visibility",
+      "category": "COMMUNICATE-P.AT"
+    },
+    {
+      "code": "COMMUNICATE-P.AT-04",
+      "title": "Records of data disclosures and sharing are maintained and can be accessed for review or transmission/disclosure",
+      "category": "COMMUNICATE-P.AT"
+    },
+    {
+      "code": "COMMUNICATE-P.AT-05",
+      "title": "Data corrections or deletions can be communicated to individuals or organizations (e.g., data sources) in the data processing ecosystem",
+      "category": "COMMUNICATE-P.AT"
+    },
+    {
+      "code": "COMMUNICATE-P.CM-01",
+      "title": "Complaints, concerns, and questions from individuals about organizational data processing practices are responded to and resolved",
+      "category": "COMMUNICATE-P.CM"
+    },
+    {
+      "code": "COMMUNICATE-P.CM-02",
+      "title": "Individuals' data processing preferences are determined and managed by the organization",
+      "category": "COMMUNICATE-P.CM"
+    },
+    {
+      "code": "COMMUNICATE-P.CM-03",
+      "title": "Individuals' data requests are received and managed by the organization",
+      "category": "COMMUNICATE-P.CM"
+    },
+    {
+      "code": "PROTECT-P.DS-01",
+      "title": "Data are provisioned and managed throughout their lifecycle",
+      "category": "PROTECT-P.DS"
+    },
+    {
+      "code": "PROTECT-P.DS-02",
+      "title": "Data are maintained securely",
+      "category": "PROTECT-P.DS"
+    },
+    {
+      "code": "PROTECT-P.DS-03",
+      "title": "Access to data and systems, products, or services is managed",
+      "category": "PROTECT-P.DS"
+    },
+    {
+      "code": "PROTECT-P.DS-04",
+      "title": "Data integrity is maintained",
+      "category": "PROTECT-P.DS"
+    },
+    {
+      "code": "PROTECT-P.DS-05",
+      "title": "Data are protected during transmission, storage, and processing",
+      "category": "PROTECT-P.DS"
+    },
+    {
+      "code": "PROTECT-P.DS-06",
+      "title": "Data destruction, erasure, and retention practices are governed by policy and performed according to requirements",
+      "category": "PROTECT-P.DS"
+    },
+    {
+      "code": "PROTECT-P.DS-07",
+      "title": "Technical privacy architectures for systems, products, or services are implemented to support privacy principles",
+      "category": "PROTECT-P.DS"
+    },
+    {
+      "code": "PROTECT-P.DS-08",
+      "title": "Separation of duties, principle of least privilege, and other security design principles are used to manage access to data",
+      "category": "PROTECT-P.DS"
+    },
+    {
+      "code": "PROTECT-P.PT-01",
+      "title": "Data processing is controlled to allow for data to be accessed, corrected, deleted, or taken back",
+      "category": "PROTECT-P.PT"
+    },
+    {
+      "code": "PROTECT-P.PT-02",
+      "title": "System/product/service design enables data to be shared in accordance with predetermined terms",
+      "category": "PROTECT-P.PT"
+    },
+    {
+      "code": "PROTECT-P.PT-03",
+      "title": "System/product/service design enables individuals' data processing preferences to be expressed",
+      "category": "PROTECT-P.PT"
+    },
+    {
+      "code": "PROTECT-P.PT-04",
+      "title": "System/product/service design enables individuals' data processing preferences to be implemented",
+      "category": "PROTECT-P.PT"
+    },
+    {
+      "code": "PROTECT-P.PT-05",
+      "title": "System/product/service design enables the evaluation of whether data processing has complied with predetermined terms",
+      "category": "PROTECT-P.PT"
+    }
+  ]
+}

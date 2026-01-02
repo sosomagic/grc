@@ -1,0 +1,273 @@
+{
+  "functions": [
+    {
+      "code": "GV",
+      "title": "Govern",
+      "description": "The organization's cybersecurity risk management strategy, expectations, and policy are established, communicated, and monitored."
+    },
+    {
+      "code": "ID",
+      "title": "Identify",
+      "description": "The organization's current cybersecurity risks are understood."
+    },
+    {
+      "code": "PR",
+      "title": "Protect",
+      "description": "Safeguards to manage the organization's cybersecurity risks are used."
+    },
+    {
+      "code": "DE",
+      "title": "Detect",
+      "description": "Possible cybersecurity attacks and compromises are found and analyzed."
+    },
+    {
+      "code": "RS",
+      "title": "Respond",
+      "description": "Actions regarding a detected cybersecurity incident are taken."
+    },
+    {
+      "code": "RC",
+      "title": "Recover",
+      "description": "Assets and operations affected by a cybersecurity incident are restored."
+    }
+  ],
+  "categories": [
+    {
+      "code": "GV.OC",
+      "title": "Organizational Context",
+      "description": "The circumstances — mission, stakeholder expectations, dependencies, and legal, regulatory, and contractual requirements — surrounding the organization's cybersecurity risk management decisions are understood.",
+      "function": "GV"
+    },
+    {
+      "code": "GV.RM",
+      "title": "Risk Management Strategy",
+      "description": "The organization's priorities, constraints, risk tolerance and appetite statements, and assumptions are established, communicated, and used to support operational risk decisions.",
+      "function": "GV"
+    },
+    {
+      "code": "GV.RR",
+      "title": "Roles, Responsibilities, and Authorities",
+      "description": "Cybersecurity roles, responsibilities, and authorities to foster accountability, performance assessment, and continuous improvement are established and communicated.",
+      "function": "GV"
+    },
+    {
+      "code": "GV.PO",
+      "title": "Policy",
+      "description": "Organizational cybersecurity policy is established, communicated, and enforced.",
+      "function": "GV"
+    },
+    {
+      "code": "GV.OV",
+      "title": "Oversight",
+      "description": "Results of organization-wide cybersecurity risk management activities and performance are used to inform, improve, and adjust the risk management strategy.",
+      "function": "GV"
+    },
+    {
+      "code": "GV.SC",
+      "title": "Cybersecurity Supply Chain Risk Management",
+      "description": "Cyber supply chain risk management processes are identified, established, managed, monitored, and improved by organizational stakeholders.",
+      "function": "GV"
+    },
+    {
+      "code": "ID.AM",
+      "title": "Asset Management",
+      "description": "Assets are managed consistent with the organization's risk strategy.",
+      "function": "ID"
+    },
+    {
+      "code": "ID.RA",
+      "title": "Risk Assessment",
+      "description": "The cybersecurity risk to the organization is understood by organizational stakeholders.",
+      "function": "ID"
+    },
+    {
+      "code": "ID.IM",
+      "title": "Improvement",
+      "description": "Improvements to organizational cybersecurity risk management processes, procedures, and activities are identified across all CSF Functions.",
+      "function": "ID"
+    },
+    {
+      "code": "PR.AA",
+      "title": "Identity Management, Authentication, and Access Control",
+      "description": "Access to physical and logical assets is limited to authorized users, services, and hardware.",
+      "function": "PR"
+    },
+    {
+      "code": "PR.AT",
+      "title": "Awareness and Training",
+      "description": "The organization's personnel are provided with cybersecurity awareness and training.",
+      "function": "PR"
+    },
+    {
+      "code": "PR.DS",
+      "title": "Data Security",
+      "description": "Data are managed consistent with the organization's risk strategy.",
+      "function": "PR"
+    },
+    {
+      "code": "PR.PS",
+      "title": "Platform Security",
+      "description": "The hardware, software, and services of physical and virtual platforms are managed consistent with the organization's risk strategy.",
+      "function": "PR"
+    },
+    {
+      "code": "PR.IR",
+      "title": "Technology Infrastructure Resilience",
+      "description": "Security architectures are managed with the organization's risk strategy to protect asset confidentiality, integrity, and availability.",
+      "function": "PR"
+    },
+    {
+      "code": "DE.CM",
+      "title": "Continuous Monitoring",
+      "description": "Assets are monitored to find anomalies, indicators of compromise, and other potentially adverse events.",
+      "function": "DE"
+    },
+    {
+      "code": "DE.AE",
+      "title": "Adverse Event Analysis",
+      "description": "Anomalies, indicators of compromise, and other potentially adverse events are analyzed to characterize the events and detect cybersecurity incidents.",
+      "function": "DE"
+    },
+    {
+      "code": "RS.MA",
+      "title": "Incident Management",
+      "description": "Responses to detected cybersecurity incidents are managed.",
+      "function": "RS"
+    },
+    {
+      "code": "RS.AN",
+      "title": "Incident Analysis",
+      "description": "Investigations are conducted to ensure effective response and support forensics and recovery activities.",
+      "function": "RS"
+    },
+    {
+      "code": "RS.CO",
+      "title": "Incident Response Reporting and Communication",
+      "description": "Response activities are coordinated with internal and external stakeholders as required by laws, regulations, or policies.",
+      "function": "RS"
+    },
+    {
+      "code": "RS.MI",
+      "title": "Incident Mitigation",
+      "description": "Activities are performed to prevent expansion of an event and mitigate its effects.",
+      "function": "RS"
+    },
+    {
+      "code": "RC.RP",
+      "title": "Incident Recovery Plan Execution",
+      "description": "Restoration activities are performed to ensure operational availability of systems and services affected by cybersecurity incidents.",
+      "function": "RC"
+    },
+    {
+      "code": "RC.CO",
+      "title": "Incident Recovery Communication",
+      "description": "Restoration activities are coordinated with internal and external parties.",
+      "function": "RC"
+    }
+  ],
+  "subcategories": [
+    {"code": "GV.OC-01", "title": "The organizational mission is understood and informs cybersecurity risk management", "category": "GV.OC"},
+    {"code": "GV.OC-02", "title": "Internal and external stakeholders are understood, and their needs and expectations regarding cybersecurity risk management are understood and considered", "category": "GV.OC"},
+    {"code": "GV.OC-03", "title": "Legal, regulatory, and contractual requirements regarding cybersecurity are understood and managed", "category": "GV.OC"},
+    {"code": "GV.OC-04", "title": "Critical objectives, capabilities, and services that stakeholders depend on are understood and communicated", "category": "GV.OC"},
+    {"code": "GV.OC-05", "title": "Outcomes, capabilities, and services that the organization depends on are understood and communicated", "category": "GV.OC"},
+    {"code": "GV.RM-01", "title": "Risk management objectives are established and agreed to by organizational stakeholders", "category": "GV.RM"},
+    {"code": "GV.RM-02", "title": "Risk appetite and risk tolerance statements are established, communicated, and maintained", "category": "GV.RM"},
+    {"code": "GV.RM-03", "title": "Cybersecurity risk management activities and outcomes are included in enterprise risk management processes", "category": "GV.RM"},
+    {"code": "GV.RM-04", "title": "Strategic direction that describes appropriate risk response options is established and communicated", "category": "GV.RM"},
+    {"code": "GV.RM-05", "title": "Lines of communication across the organization are established for cybersecurity risks", "category": "GV.RM"},
+    {"code": "GV.RM-06", "title": "A standardized method for calculating, documenting, and categorizing cybersecurity risks is established and communicated", "category": "GV.RM"},
+    {"code": "GV.RM-07", "title": "Strategic opportunities are identified and communicated", "category": "GV.RM"},
+    {"code": "GV.RR-01", "title": "Organizational leadership is responsible and accountable for cybersecurity risk and fosters a culture that is risk-aware and safety-focused", "category": "GV.RR"},
+    {"code": "GV.RR-02", "title": "Roles, responsibilities, and authorities related to cybersecurity risk management are established, communicated, understood, and enforced", "category": "GV.RR"},
+    {"code": "GV.RR-03", "title": "Adequate resources are allocated commensurate with the cybersecurity risk strategy, roles, responsibilities, and policies", "category": "GV.RR"},
+    {"code": "GV.RR-04", "title": "Cybersecurity is included in human resources practices", "category": "GV.RR"},
+    {"code": "GV.PO-01", "title": "Policy for managing cybersecurity risks is established based on organizational context, cybersecurity strategy, and priorities and is communicated and enforced", "category": "GV.PO"},
+    {"code": "GV.PO-02", "title": "Policy for managing cybersecurity risks is reviewed, updated, communicated, and enforced to reflect changes in requirements, threats, technology, and organizational mission", "category": "GV.PO"},
+    {"code": "GV.OV-01", "title": "Cybersecurity risk management strategy outcomes are reviewed to inform and adjust strategy and direction", "category": "GV.OV"},
+    {"code": "GV.OV-02", "title": "The cybersecurity risk management strategy is reviewed and adjusted to ensure coverage of organizational requirements and risks", "category": "GV.OV"},
+    {"code": "GV.OV-03", "title": "Organizational cybersecurity risk management performance is evaluated and reviewed for adjustments needed", "category": "GV.OV"},
+    {"code": "GV.SC-01", "title": "A cybersecurity supply chain risk management program, strategy, objectives, policies, and processes are established and agreed to by organizational stakeholders", "category": "GV.SC"},
+    {"code": "GV.SC-02", "title": "Cybersecurity roles and responsibilities for suppliers, customers, and partners are established, communicated, and coordinated internally and externally", "category": "GV.SC"},
+    {"code": "GV.SC-03", "title": "Contracts with suppliers and third-party partners are used to implement appropriate measures designed to meet the objectives of the cybersecurity supply chain risk management plan", "category": "GV.SC"},
+    {"code": "GV.SC-04", "title": "Suppliers are known and prioritized by criticality", "category": "GV.SC"},
+    {"code": "GV.SC-05", "title": "Requirements to address cybersecurity risks in supply chains are established, prioritized, and integrated into contracts and other types of agreements with suppliers and third-party partners", "category": "GV.SC"},
+    {"code": "GV.SC-06", "title": "Planning and due diligence are performed to reduce risks before entering into formal supplier or third-party partner relationships", "category": "GV.SC"},
+    {"code": "GV.SC-07", "title": "The risks posed by a supplier, their products and services, and other third parties are understood, recorded, prioritized, assessed, responded to, and monitored over the course of the relationship", "category": "GV.SC"},
+    {"code": "GV.SC-08", "title": "Relevant suppliers and third-party partners are included in incident planning, response, and recovery activities", "category": "GV.SC"},
+    {"code": "GV.SC-09", "title": "Supply chain security practices are integrated into cybersecurity and enterprise risk management programs, and their performance is monitored throughout the technology product and service life cycle", "category": "GV.SC"},
+    {"code": "GV.SC-10", "title": "Cybersecurity supply chain risk management plans include provisions for activities that occur after the conclusion of a partnership or service agreement", "category": "GV.SC"},
+    {"code": "ID.AM-01", "title": "Inventories of hardware managed by the organization are maintained", "category": "ID.AM"},
+    {"code": "ID.AM-02", "title": "Inventories of software, services, and systems managed by the organization are maintained", "category": "ID.AM"},
+    {"code": "ID.AM-03", "title": "Representations of the organization's authorized network communication and internal and external network data flows are maintained", "category": "ID.AM"},
+    {"code": "ID.AM-04", "title": "Inventories of services provided by suppliers are maintained", "category": "ID.AM"},
+    {"code": "ID.AM-05", "title": "Assets are prioritized based on classification, criticality, resources, and impact on the mission", "category": "ID.AM"},
+    {"code": "ID.AM-07", "title": "Inventories of data and corresponding metadata for designated data types are maintained", "category": "ID.AM"},
+    {"code": "ID.AM-08", "title": "Systems, hardware, software, services, and data are managed throughout their life cycles", "category": "ID.AM"},
+    {"code": "ID.RA-01", "title": "Vulnerabilities in assets are identified, validated, and recorded", "category": "ID.RA"},
+    {"code": "ID.RA-02", "title": "Cyber threat intelligence is received from information sharing forums and sources", "category": "ID.RA"},
+    {"code": "ID.RA-03", "title": "Internal and external threats to the organization are identified and recorded", "category": "ID.RA"},
+    {"code": "ID.RA-04", "title": "Potential impacts and likelihoods of threats exploiting vulnerabilities are identified and recorded", "category": "ID.RA"},
+    {"code": "ID.RA-05", "title": "Threats, vulnerabilities, likelihoods, and impacts are used to understand inherent risk and inform risk response decisions", "category": "ID.RA"},
+    {"code": "ID.RA-06", "title": "Risk responses are chosen, prioritized, planned, tracked, and communicated", "category": "ID.RA"},
+    {"code": "ID.RA-07", "title": "Changes and exceptions are managed, assessed for risk impact, recorded, and tracked", "category": "ID.RA"},
+    {"code": "ID.RA-08", "title": "Processes for receiving, analyzing, and responding to vulnerability disclosures are established", "category": "ID.RA"},
+    {"code": "ID.RA-09", "title": "The authenticity and integrity of hardware and software are assessed prior to acquisition and use", "category": "ID.RA"},
+    {"code": "ID.RA-10", "title": "Critical suppliers are assessed prior to acquisition", "category": "ID.RA"},
+    {"code": "ID.IM-01", "title": "Improvements to organizational cybersecurity risk management processes, procedures, and activities are identified and implemented", "category": "ID.IM"},
+    {"code": "ID.IM-02", "title": "Improvements to the organization's hardware, software, services, and systems are identified and implemented", "category": "ID.IM"},
+    {"code": "ID.IM-03", "title": "Response plans and recovery plans are tested, and lessons learned are incorporated into improvements", "category": "ID.IM"},
+    {"code": "ID.IM-04", "title": "Incident response plans and processes are improved by incorporating lessons learned from current and previous detection, response, and recovery activities", "category": "ID.IM"},
+    {"code": "PR.AA-01", "title": "Identities and credentials for authorized users, services, and hardware are managed by the organization", "category": "PR.AA"},
+    {"code": "PR.AA-02", "title": "Identities are proofed and bound to credentials based on the context of interactions", "category": "PR.AA"},
+    {"code": "PR.AA-03", "title": "Users, services, and hardware are authenticated", "category": "PR.AA"},
+    {"code": "PR.AA-04", "title": "Identity assertions are protected, conveyed, and verified", "category": "PR.AA"},
+    {"code": "PR.AA-05", "title": "Access permissions, entitlements, and authorizations are defined in a policy, managed, enforced, and reviewed, and incorporate the principles of least privilege and separation of duties", "category": "PR.AA"},
+    {"code": "PR.AA-06", "title": "Physical access to assets is managed, monitored, and enforced commensurate with risk", "category": "PR.AA"},
+    {"code": "PR.AT-01", "title": "Personnel are provided with cybersecurity awareness education", "category": "PR.AT"},
+    {"code": "PR.AT-02", "title": "Individuals in specialized roles are provided with role-specific cybersecurity awareness and skills training", "category": "PR.AT"},
+    {"code": "PR.DS-01", "title": "The confidentiality, integrity, and availability of data-at-rest are protected", "category": "PR.DS"},
+    {"code": "PR.DS-02", "title": "The confidentiality, integrity, and availability of data-in-transit are protected", "category": "PR.DS"},
+    {"code": "PR.DS-10", "title": "The confidentiality, integrity, and availability of data-in-use are protected", "category": "PR.DS"},
+    {"code": "PR.DS-11", "title": "Backups of data are created, protected, maintained, and tested", "category": "PR.DS"},
+    {"code": "PR.PS-01", "title": "Configuration management practices are established and applied", "category": "PR.PS"},
+    {"code": "PR.PS-02", "title": "Software is maintained, replaced, and removed commensurate with risk", "category": "PR.PS"},
+    {"code": "PR.PS-03", "title": "Hardware is maintained, replaced, and removed commensurate with risk", "category": "PR.PS"},
+    {"code": "PR.PS-04", "title": "Log records are generated and made available for continuous monitoring", "category": "PR.PS"},
+    {"code": "PR.PS-05", "title": "Installation and execution of unauthorized software are prevented", "category": "PR.PS"},
+    {"code": "PR.PS-06", "title": "Secure software development practices are integrated, and their performance is monitored throughout the software development life cycle", "category": "PR.PS"},
+    {"code": "PR.IR-01", "title": "Networks and environments are protected from unauthorized logical access and usage", "category": "PR.IR"},
+    {"code": "PR.IR-02", "title": "The organization's technology assets are protected from environmental threats", "category": "PR.IR"},
+    {"code": "PR.IR-03", "title": "Mechanisms are implemented to achieve resilience requirements in normal and adverse situations", "category": "PR.IR"},
+    {"code": "PR.IR-04", "title": "Adequate resource capacity to ensure availability is maintained", "category": "PR.IR"},
+    {"code": "DE.CM-01", "title": "Networks and network services are monitored to find potentially adverse events", "category": "DE.CM"},
+    {"code": "DE.CM-02", "title": "The physical environment is monitored to find potentially adverse events", "category": "DE.CM"},
+    {"code": "DE.CM-03", "title": "Personnel activity and technology usage are monitored to find potentially adverse events", "category": "DE.CM"},
+    {"code": "DE.CM-06", "title": "External service provider activities and services are monitored to find potentially adverse events", "category": "DE.CM"},
+    {"code": "DE.CM-09", "title": "Computing hardware and software, runtime environments, and their data are monitored to find potentially adverse events", "category": "DE.CM"},
+    {"code": "DE.AE-02", "title": "Potentially adverse events are analyzed to better understand associated activities", "category": "DE.AE"},
+    {"code": "DE.AE-03", "title": "Information is correlated from multiple sources", "category": "DE.AE"},
+    {"code": "DE.AE-04", "title": "The estimated impact and scope of adverse events are understood", "category": "DE.AE"},
+    {"code": "DE.AE-06", "title": "Information on adverse events is provided to authorized staff and tools", "category": "DE.AE"},
+    {"code": "DE.AE-07", "title": "Cyber threat intelligence and other contextual information are integrated into the analysis", "category": "DE.AE"},
+    {"code": "DE.AE-08", "title": "Incidents are declared when adverse events meet the defined incident criteria", "category": "DE.AE"},
+    {"code": "RS.MA-01", "title": "The incident response plan is executed in coordination with relevant third parties once an incident is declared", "category": "RS.MA"},
+    {"code": "RS.MA-02", "title": "Incident reports are triaged and validated", "category": "RS.MA"},
+    {"code": "RS.MA-03", "title": "Incidents are categorized and prioritized", "category": "RS.MA"},
+    {"code": "RS.MA-04", "title": "Incidents are escalated or elevated as needed", "category": "RS.MA"},
+    {"code": "RS.MA-05", "title": "The criteria for initiating incident recovery are applied", "category": "RS.MA"},
+    {"code": "RS.AN-03", "title": "Analysis is performed to establish what has taken place during an incident and the root cause of the incident", "category": "RS.AN"},
+    {"code": "RS.AN-06", "title": "Actions performed during an investigation are recorded, and the records' integrity and provenance are preserved", "category": "RS.AN"},
+    {"code": "RS.AN-07", "title": "Incident data and metadata are collected, and their integrity and provenance are preserved", "category": "RS.AN"},
+    {"code": "RS.AN-08", "title": "An incident's magnitude is estimated and validated", "category": "RS.AN"},
+    {"code": "RS.CO-02", "title": "Internal and external stakeholders are notified of incidents", "category": "RS.CO"},
+    {"code": "RS.CO-03", "title": "Information is shared with designated internal and external stakeholders", "category": "RS.CO"},
+    {"code": "RS.MI-01", "title": "Incidents are contained", "category": "RS.MI"},
+    {"code": "RS.MI-02", "title": "Incidents are eradicated", "category": "RS.MI"},
+    {"code": "RC.RP-01", "title": "The recovery portion of the incident response plan is executed once initiated from the incident response process", "category": "RC.RP"},
+    {"code": "RC.RP-03", "title": "Recovery activities are communicated to internal stakeholders and executive and management teams", "category": "RC.RP"},
+    {"code": "RC.RP-04", "title": "Public updates on incident recovery are shared using approved methods and messaging", "category": "RC.RP"},
+    {"code": "RC.CO-03", "title": "Recovery activities and progress in restoring operational capabilities are communicated to internal and external stakeholders", "category": "RC.CO"},
+    {"code": "RC.CO-04", "title": "Public relations are managed and conducted", "category": "RC.CO"}
+  ]
+}
